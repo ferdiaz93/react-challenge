@@ -8,7 +8,7 @@ function ModelosView():JSX.Element{
 
   useEffect(() => {
     async function getData(){
-      let response = await fetch('https://glacial-castle-98074.herokuapp.com' +'/api/get-vehicles')
+      let response = await fetch('https://glacial-castle-98074.herokuapp.com' + '/api/get-vehicles')
       let data:IResponse = await response.json();
       setVehicles(data.response)
     }
