@@ -1,0 +1,26 @@
+.filters-container{
+    font-size: 13px;
+}
+
+.active{
+    background-color: #373737!important;
+    color:white!important;
+}
+
+a{
+    padding: 3px 10px!important;
+    color: #373737!important;
+}
+
+a:hover{
+    background-color: #373737;
+    color:white!important;
+}
+
+.nav-item{
+    margin: 0px 40px;
+}
+
+.default-size{
+    min-height: 600px;
+}
